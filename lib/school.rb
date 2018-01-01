@@ -21,6 +21,6 @@ class School
       value = 1
     end
     test
-      
+
   end
 end
