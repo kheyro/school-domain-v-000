@@ -18,6 +18,6 @@ class School
   def sort
     test = @roster.sort.to_h
     test.transform_values(&:sort)
-    
+
   end
 end
