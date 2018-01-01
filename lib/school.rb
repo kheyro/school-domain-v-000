@@ -17,7 +17,7 @@ class School
 
   def sort
     test = @roster.sort.to_h
-    test.map{|k, v| v.sort}.to_h
+    test.map{|k, v| [k, v.sort]}.to_h
 
   end
 end
