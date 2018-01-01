@@ -17,7 +17,7 @@ class School
 
   def sort
     test = @roster.sort.to_h
-    test.transform_values(&:sort)
+    test.transform_values{ |k| k.sort }
 
   end
 end
