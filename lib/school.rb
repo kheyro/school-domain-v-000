@@ -16,8 +16,11 @@ class School
   end
 
   def sort
-    @roster.sort.to_h.each do |key, value|
-      value.sort
+    test = @roster.sort.to_h
+    test.each do |key, value|
+      value = 1
     end
+    test
+      
   end
 end
