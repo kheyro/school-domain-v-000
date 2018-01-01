@@ -17,9 +17,7 @@ class School
 
   def sort
     test = @roster.sort.to_h
-    test.map do |key, value|
-      test[key] = test[key].sort
-    end
+    test.transform_values(&:sort)
     
   end
 end
