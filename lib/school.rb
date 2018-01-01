@@ -17,10 +17,9 @@ class School
 
   def sort
     test = @roster.sort.to_h
-    test.map do |key, value|
+    test.each do |key, value|
       value = test[key].sort
     end
-    value
-
+    test
   end
 end
