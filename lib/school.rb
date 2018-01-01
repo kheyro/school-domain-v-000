@@ -18,7 +18,7 @@ class School
   def sort
     test = @roster.sort.to_h
     test.each do |key, value|
-      value = 1
+      test[key] =  1
     end
     test
 
