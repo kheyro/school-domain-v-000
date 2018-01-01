@@ -1,10 +1,10 @@
 class School
-  def initialize(roaster = {})
-    @roaster = roaster
+  def initialize(roster = {})
+    @roster = roster
   end
 
   def add_student(name, grade)
-    @roaster[grade] << name
+    @roster[grade] << name
   end
 
   def grade(name)
