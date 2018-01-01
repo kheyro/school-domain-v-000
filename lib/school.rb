@@ -19,6 +19,5 @@ class School
     @roster.sort.to_h.each do |key, value|
       value.sort
     end
-    @roster
   end
 end
