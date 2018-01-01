@@ -20,6 +20,6 @@ class School
     test.map do |key, value|
       test[key] = test[key].sort
     end
-    test
+    
   end
 end
