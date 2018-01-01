@@ -6,5 +6,7 @@ class School
   def add_student(name, grade)
     @roaster[grade] << name
   end
-end
 
+  def grade(name)
+  end
+end
