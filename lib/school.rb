@@ -17,6 +17,6 @@ class School
 
   def sort
     @roster.sort.to_h
-    @roster.value.map(&:sort)
+    @roster.values.map(&:sort)
   end
 end
